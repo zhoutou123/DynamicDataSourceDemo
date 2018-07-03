@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: simple-archetype
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: miya17071101
+Implementation-Vendor-Id: com.miya
+Build-Jdk: 1.8.0_131
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/DynamicDataScourceDemo
+Created-By: Maven Integration for Eclipse
+

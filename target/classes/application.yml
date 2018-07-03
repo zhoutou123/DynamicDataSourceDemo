@@ -1,0 +1,45 @@
+server:
+  port: 8080
+#日志配置
+logging:
+  path: logs
+  level:
+    com.miya: debug
+    org.hibernate: info
+  file:
+    max-history: 30
+# 数据源配置 
+spring:
+  jpa:
+    database: mysql
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    open-in-view: false
+    #hibernate提供了根据实体类自动维护数据库表结构的功能，可通过spring.jpa.hibernate.ddl-auto来配置，有下列可选项：
+    #1、create：启动时删除上一次生成的表，并根据实体类生成表，表中数据会被清空。
+    #2、create-drop：启动时根据实体类生成表，sessionFactory关闭时表会被删除。
+    #3、update：启动时会根据实体类生成表，当实体类属性变动的时候，表结构也会更新，在初期开发阶段使用此选项。
+    #4、validate：启动时验证实体类和数据表是否一致，在我们数据结构稳定时采用此选项。
+    hibernate:
+      ddl-auto: none
+  datasource:
+    jdbc-url: 
+    username: 
+    password: 
+    driver-class-name: com.mysql.jdbc.Driver
+    ds2:
+      jdbc-url:
+      username: 
+      password: 
+      driver-class-name: com.mysql.jdbc.Driver
+  jackson:
+    serialization:
+      indent-output: true 
+  redis:
+    host: 
+    port: 6379
+    password: 
+    timeout:
+      seconds: 2000
+    database: 0
+         

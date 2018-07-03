@@ -1,0 +1,49 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.miya.DynamicDataScourceDemo.config.DataSourceConfig",
+      "name": "spring.datasource",
+      "sourceMethod": "public javax.sql.DataSource dataSource1() ",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.miya.DynamicDataScourceDemo.config.DataSourceConfig",
+      "name": "spring.datasource.ds2",
+      "sourceMethod": "public javax.sql.DataSource dataSource2() ",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.ds2.driver-class-name",
+      "description": "A description for 'spring.datasource.ds2.driver-class-name'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.ds2.jdbc-url",
+      "description": "A description for 'spring.datasource.ds2.jdbc-url'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.ds2.password",
+      "description": "A description for 'spring.datasource.ds2.password'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.ds2.url",
+      "description": "A description for 'spring.datasource.ds2.url'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.ds2.username",
+      "description": "A description for 'spring.datasource.ds2.username'",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.datasource.jdbc-url",
+      "description": "A description for 'spring.datasource.jdbc-url'",
+      "type": "java.lang.String"
+    }
+  ]
+}
