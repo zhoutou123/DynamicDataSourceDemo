@@ -1,0 +1,77 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+*.iws
+*.iml
+*.ipr
+/.idea/
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+### logs ###
+/logs/
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+.pydevproject
+target
+.DS_Store
+
+*/log/
+logs
+*.log
+bin
+
+# idea #
+.idea
+
+# es #
+/data/
+/.idea/sonarlint/issuestore/1/0/10795012150399a7fd5c79a6245d24ad20f1d842
+/.idea/sonarlint/issuestore/1/4/145642142966ce9e250bc2722306531c38765874
+/.idea/sonarlint/issuestore/1/f/1f97758db87594d234a8206d0d62099c44a3cb51
+/.idea/sonarlint/issuestore/3/3/33b35858e5118759ef1e9f4d7fab307dca799c14
+/.idea/sonarlint/issuestore/3/7/371f2793d06cdf0e91f4dfc97509aecf90eb84c2
+/.idea/sonarlint/issuestore/5/7/57481185745d8b4d75ae38616acf190d94c5b2e1
+/.idea/sonarlint/issuestore/8/3/8320df457517d132612a78cd4a03550d4c9cb856
+/.idea/sonarlint/issuestore/8/6/86dead0a743e1acce0a96566f6d2800ad05a229d
+/.idea/sonarlint/issuestore/d/0/d0f86319035b007386e7b678a90957e98be0d57a
+/.idea/sonarlint/issuestore/e/a/eac329de9a719ef492b0bdb7c1a5d266f7896bcc
+/.idea/sonarlint/issuestore/index.pb
+/.idea/archetype.iml
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/misc.xml
+/.idea/sonarlint/issuestore/1/0/10795012150399a7fd5c79a6245d24ad20f1d842
+/.idea/sonarlint/issuestore/1/4/145642142966ce9e250bc2722306531c38765874
+/.idea/sonarlint/issuestore/1/f/1f97758db87594d234a8206d0d62099c44a3cb51
+/.idea/sonarlint/issuestore/3/3/33b35858e5118759ef1e9f4d7fab307dca799c14
+/.idea/sonarlint/issuestore/3/7/371f2793d06cdf0e91f4dfc97509aecf90eb84c2
+/.idea/sonarlint/issuestore/5/7/57481185745d8b4d75ae38616acf190d94c5b2e1
+/.idea/sonarlint/issuestore/8/3/8320df457517d132612a78cd4a03550d4c9cb856
+/.idea/sonarlint/issuestore/8/6/86dead0a743e1acce0a96566f6d2800ad05a229d
+/.idea/sonarlint/issuestore/d/0/d0f86319035b007386e7b678a90957e98be0d57a
+/.idea/sonarlint/issuestore/e/a/eac329de9a719ef492b0bdb7c1a5d266f7896bcc
+/.idea/sonarlint/issuestore/index.pb
+/.idea/archetype.iml
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/misc.xml

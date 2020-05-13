@@ -23,22 +23,22 @@ spring:
     hibernate:
       ddl-auto: none
   datasource:
-    jdbc-url: 
-    username: 
-    password: 
+    jdbc-url: jdbc:mysql://120.26.100.216/crm-member?useSSL=true&serverTimezone=UTC&characterEncoding=utf8&autoReconnect=true
+    username: root
+    password: ecf73b5e2b
     driver-class-name: com.mysql.jdbc.Driver
     ds2:
-      jdbc-url:
-      username: 
-      password: 
+      jdbc-url: jdbc:mysql://120.26.100.216/coupon?useSSL=true&serverTimezone=UTC&characterEncoding=utf8&autoReconnect=true
+      username: root
+      password: ecf73b5e2b
       driver-class-name: com.mysql.jdbc.Driver
   jackson:
     serialization:
       indent-output: true 
   redis:
-    host: 
+    host: 47.97.19.30
     port: 6379
-    password: 
+    password: redis@miya
     timeout:
       seconds: 2000
     database: 0
